@@ -5,7 +5,8 @@ Customização da classe abnTeX2: <https://github.com/abntex/abntex2>
 Para instalar a versão mais recente do abnTeX2,siga as instruções em:
 https://github.com/abntex/abntex2/wiki/InstalacaoLinux
 
-# Editar-------------------------------------------------------------------------------------------------------------------------
+# Editar
+
 No arquivo principal "unopar-tcc.tex" estão todas as inclusões das partes do trabalho, caso não queira inserir algum dos elementos basta excluir a linha com o comando \include deste arquivo.
 
 Caso queira incluir mais capítulos dentro da pasta "desenvolvimento" basta criar o arquivo .tex dentro da pasta e incluí-lo via comando \include no arquivo principal "unopar-tcc.tex".
@@ -18,12 +19,19 @@ Os elementos referentes a dados do trabalho, tais como figuras, quadros, tabelas
 As referências devem ser inseridas no arquivo "base-referencias.bib" e serão incluídas na seção de referências do trabalho caso sejam citadas no corpo do trabalho. Podem ser inseridas todas as referências desejadas no arquivo "base-referências.bib" com intuito de formar uma base de dados, estas referências não aparecerão no trabalho a menos que sejam citadas.
 Caso deseje pode ser utilizado algum software de gestão de referências para gerar automaticamente o arquivo "base-referencias.bib" (recomendável JabRef).
 
-# Compilar-----------------------------------------------------------------------------------------------------------------------
+# Compilar
+
 Para compilar o projeto e gerar o documento no formato PDF, execute o seguinte comando dentro do diretório do projeto:
+
+```bash
 $ make
+```
 
-# Limpar-------------------------------------------------------------------------------------------------------------------------
+# Limpar
+
 Para limpar os arquivos temporários, execute o seguinte comando dentro do diretório do projeto:
-$ make clean
 
+```bash
+$ make clean
+```
 
