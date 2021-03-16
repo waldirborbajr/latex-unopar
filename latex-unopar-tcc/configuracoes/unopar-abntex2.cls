@@ -12,24 +12,21 @@
 %% Further information about abnTeX2 are available on http://www.abntex.net.br/
 %%------------------------------------------------------------------------------
 
-
 % -----------------------------------------------------------------------------
-% Universidade Tecnológica Federal do Paraná - UTFPR
+% Universidade Norte do Paraná - UNOPAR
 %
-% Customização da classe abnTeX2 (http://www.abntex.net.br/) para as normas da UTFPR
+% Customização da classe abnTeX2 (http://www.abntex.net.br/) para as normas da UNOPAR
 %
-% Projeto hospedado em: <link git>
+% Projeto hospedado em: <https://github.com/wborbajr/latex-unopar>
 %
-% Autores: Diego Marczal  <>
-% 	   Michael Vornes <https://github.com/mvornes>
-%
+% Autores: Waldir Borba Junior  <wborbajr@gmail.com>
 %------------------------------------------------------------------------------
 % Codificação: UTF-8
 % LaTeX:  abnTeX2          
 % -----------------------------------------------------------------------------
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{configuracoes/unopar-abntex2}[2016/07/07 v1.0]
+\ProvidesClass{configuracoes/unopar-abntex2}[2021/03/16 v1.0]
 
 % Repassa os parâmetros ao abntex2
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{abntex2}}
